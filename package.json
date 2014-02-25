@@ -1,0 +1,34 @@
+{
+    "name":             "empathy",
+    "version":          "9.9.9",
+    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
+    "description":      "A pure-JavaScript replicated state machine.",
+    "keywords":
+    [
+                        "paxos", "rsm"
+    ],
+    "contributors":     [],
+    "homepage":         "https://github.com/bigeasy/empathy",
+    "bugs":             "https://github.com/bigeasy/empathy/issues",
+    "licenses":
+    [{
+                        "type": "MIT",
+                        "url": "http://github.com/bigeasy/empathy/raw/master/LICENSE"
+    }],
+    "repository":
+    {
+                        "type": "git",
+                        "url": "http://github.com/bigeasy/empathy.git"
+    },
+    "dependencies":
+    {
+    },
+    "devDependencies":
+    {
+                        "proof":              "0.0.42"
+    },
+    "scripts":
+    {
+                        "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+    }
+}

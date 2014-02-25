@@ -1,0 +1,17 @@
+Empathy
+
+A pure-JavaScript replicated state machine.
+
+    Discussion:     http://github.com/bigeasy/empathy/issues/1
+
+    Documentation:  http://bigeasy.github.io/empathy
+    Source:         http://github.com/bigeasy/empathy
+    Issues:         http://github.com/bigeasy/empathy/issues
+
+    Install:        `npm install empathy`
+
+    License:        MIT
+
+To learn everything you want to know about Empathy start here:
+
+    http://bigeasy.github.io/empathy
