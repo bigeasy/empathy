@@ -1,3 +1,5 @@
+var cadence = require('cadence')
+
 function Empaty () {
     this._particpants = []
     this._transitioning = {}
