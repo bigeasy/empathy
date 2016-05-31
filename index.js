@@ -1,1 +1,1 @@
-module.exports = 1
+throw new Error
