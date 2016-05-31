@@ -10,11 +10,7 @@
     "contributors":     [],
     "homepage":         "https://github.com/bigeasy/empathy",
     "bugs":             "https://github.com/bigeasy/empathy/issues",
-    "licenses":
-    [{
-                        "type": "MIT",
-                        "url": "http://github.com/bigeasy/empathy/raw/master/LICENSE"
-    }],
+    "license":          "MIT",
     "repository":
     {
                         "type": "git",
