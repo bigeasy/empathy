@@ -1,12 +1,12 @@
 {
     "name":             "empathy",
     "version":          "0.0.0",
-    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
     "description":      "A pure-JavaScript replicated state machine.",
     "keywords":
     [
                         "paxos", "rsm"
     ],
+    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
     "contributors":     [],
     "homepage":         "https://github.com/bigeasy/empathy",
     "bugs":             "https://github.com/bigeasy/empathy/issues",
@@ -25,6 +25,6 @@
     },
     "scripts":
     {
-                        "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+                        "test": "proof platform win32 && proof test */*.t.js || t/test"
     }
 }
