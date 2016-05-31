@@ -1,11 +1,11 @@
 var cadence = require('cadence')
 
-function Empaty () {
+function Empathy () {
     this._particpants = []
     this._transitioning = {}
 }
 
-Empaty.prototype._message = cadence(function (async, timeout, message) {
+Empathy.prototype._message = cadence(function (async, timeout, message) {
     if (message.government) {
         if (message.collapsed) {
             this._broadcasts.clear()
@@ -63,17 +63,17 @@ Empaty.prototype._message = cadence(function (async, timeout, message) {
     }
 })
 
-Empaty.prototype.message = function (message) {
-    if (message.government || message.namespace = 'bigeasy.empathy') {
+Empathy.prototype.message = function (message) {
+    if (message.government || message.namespace == 'bigeasy.empathy') {
         this._messages.push(message)
     }
 }
 
-Empaty.prototype.register = function (registration) {
+Empathy.prototype.register = function (registration) {
     this._registrations[registration.name] = registration
 }
 
-Empaty.prototype.initiate = function () {
+Empathy.prototype.initiate = function () {
 }
 
 module.exports = Empathy
