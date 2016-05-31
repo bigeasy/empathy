@@ -73,3 +73,5 @@ Empaty.prototype.register = function (registration) {
 
 Empaty.prototype.initiate = function () {
 }
+
+module.exports = Empathy

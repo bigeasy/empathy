@@ -18,10 +18,11 @@
     },
     "dependencies":
     {
+                        "cadence":              "1.x"
     },
     "devDependencies":
     {
-                        "proof":              "0.0.47"
+                        "proof":                "0.0.47"
     },
     "main":             "empathy",
     "scripts":
