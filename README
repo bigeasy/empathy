@@ -1,7 +1,6 @@
 Empathy
 
-Convert Node.js Paxos message to a binary structure to share with alternate
-implemenations.
+Convert Node.js Paxos messages to binary to share with alternate implementations.
 
     Discussion:     http://github.com/bigeasy/empathy/issues/1
 
