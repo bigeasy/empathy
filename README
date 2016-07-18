@@ -1,19 +1,14 @@
 Cadence GitHub Pages
 
-    http://bigeasy.github.io/cadence/
+To build.
 
-You will need to install Pygments for syntax highlighting.
+$ make
 
-http://pygments.org/
+To serve at 127.0.0.1:4000.
 
-Then:
+$ make serve
 
-$ npm install
-$ node serve.js
+To serve at 127.0.0.1:4000, build, and reload Chrome on OS X when changes are
+made.
 
-And then you can:
-
-$ open http://127.0.0.1:3000
-
-Now, whenever you refresh your browser, `serve.js` will run `make` and update
-the pages.
+$ make watch
