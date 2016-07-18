@@ -18,7 +18,8 @@
     },
     "dependencies":
     {
-                        "cadence":              "1.x"
+                        "cadence":              "1.x",
+                        "packet":               "0.0.x"
     },
     "devDependencies":
     {

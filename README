@@ -1,6 +1,7 @@
 Empathy
 
-A pure-JavaScript replicated state machine.
+Convert Node.js Paxos message to a binary structure to share with alternate
+implemenations.
 
     Discussion:     http://github.com/bigeasy/empathy/issues/1
 
