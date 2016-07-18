@@ -2,11 +2,13 @@ Empathy
 
 Convert Node.js Paxos messages to binary to share with alternate implementations.
 
-    Discussion:     http://github.com/bigeasy/empathy/issues/1
+    Discussion:     https://github.com/bigeasy/empathy/issues/1
 
-    Documentation:  http://bigeasy.github.io/empathy
-    Source:         http://github.com/bigeasy/empathy
-    Issues:         http://github.com/bigeasy/empathy/issues
+    Documentation:  https://bigeasy.github.io/empathy
+    Source:         https://github.com/bigeasy/empathy
+    Issues:         https://github.com/bigeasy/empathy/issues
+    CI:             https://travis-ci.org/bigeasy/empathy
+    Coverage:       https://coveralls.io/github/bigeasy/empathy
 
     Install:        `npm install empathy`
 
