@@ -27,7 +27,7 @@
 // Our unit test begins here.
 
 //
-require('proof')(22, okay => {
+require('proof')(23, okay => {
     // In your program this would be
     //
     // ```javascript
@@ -90,12 +90,15 @@ require('proof')(22, okay => {
     //
 
     // This is an important departure from `typeof` but I find these to be
-    // helpful so I've not corrected them.
+    // helpful so I've not corrected them. Renamed `regexp` to `regex` because
+    // Jeffrey Friedl really does not like the term "regexp" to describe regular
+    // expressions.
 
     //
     okay(sortof(new Date(0)), 'date', 'is date')
     okay(sortof(new Map()), 'map', 'is map')
     okay(sortof(new Set()), 'set', 'is set')
+    okay(sortof(new RegExp()), 'regex', 'is regex')
     //
 
     // Here is the counter example form the landing page. First type `typeof`
