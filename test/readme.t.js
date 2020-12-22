@@ -27,7 +27,7 @@
 // Our unit test begins here.
 
 //
-require('proof')(21, okay => {
+require('proof')(22, okay => {
     // In your program this would be
     //
     // ```javascript
@@ -63,9 +63,13 @@ require('proof')(21, okay => {
     okay(sortof(Symbol('x')), 'symbol', 'is symbol')
     //
 
+    // `async` functions required a fixup, but I want them to be considered
+    // functions since I've never done special handling for `async` functions.
+
     //
     okay(sortof(function () {}), 'function', 'is function')
     okay(sortof(() => {}), 'function', 'is also function')
+    okay(sortof(async function () {}), 'function', 'is also function')
     okay(sortof(new Function('return 1')), 'function', 'is still function')
     //
 
