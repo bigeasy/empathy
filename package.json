@@ -1,6 +1,6 @@
 {
     "name":                 "empathy",
-    "version":              "0.0.1",
+    "version":              "0.0.2",
     "description":
 
       "A `typeof` implementation safe for Object representations of JavaScript primitives.",
