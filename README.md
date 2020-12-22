@@ -29,7 +29,7 @@ javascript](https://stackoverflow.com/a/17583612), both submitted by one
 it into one module after another. Decided it needs a base of operations, so now
 it lives here.
 
-```
+```javascript
 const assert = require('assert')
 const sortof = require('empathy')
 
